@@ -105,6 +105,7 @@ return {
                 "eslint",
                 "clangd",
                 "pyright",
+                "cmake",
             },
             handlers = {
                 -- this first function is the "default handler"

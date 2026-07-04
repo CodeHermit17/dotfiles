@@ -106,6 +106,7 @@ return {
                 "clangd",
                 "pyright",
                 "cmake",
+                "fortls",
             },
             handlers = {
                 -- this first function is the "default handler"

@@ -10,7 +10,7 @@ return {
                     return vim.o.columns * 0.4
                 end
             end,
-            open_mapping = [[<C-\>]],
+            open_mapping = [[<leader>tt]],
             direction = "float",
             float_opts = {
                 border = "curved",
@@ -23,7 +23,5 @@ return {
 
         -- easier escape from terminal mode
         vim.keymap.set("t", "q", [[<C-\><C-n>]], { desc = "Exit terminal mode" })
-
-        -- quick run keymaps for common languages
     end,
 }
